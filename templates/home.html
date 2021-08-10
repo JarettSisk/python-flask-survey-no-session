@@ -5,7 +5,7 @@
 {% block content %}
 <h1>{{survey_title}}</h1>
 <h3>{{survey_instructions}}</h3>
-<form action="/question/1">
+<form action="/create_session" method="POST">
     <button>Take Survey</button>
 </form>
 {% endblock %}
